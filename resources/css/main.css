@@ -1,0 +1,56 @@
+/* This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
+
+/* mamkschools orange = #ec7b1f */
+@import url("https://fonts.googleapis.com/css?family=Source+Code+Pro:400,600");
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: "Source Code Pro", monospace;
+    background-color: #ec7b1f;
+    color: #e8ebf7;
+    text-rendering: optimizeLegibility;
+}
+
+footer {
+    font-size: 75%;
+    margin-top: 100px;
+}
+
+td,
+th {
+    border: 2px solid #4b4237;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.blank {
+    color: transparent;
+    border: solid transparent;
+}
+
+a:link,
+a:visited {
+    color: #3c91e6;
+    text-decoration: none;
+    border-bottom: 0;
+    -webkit-transition: border-bottom 0.15s;
+    transition: border-bottom 0.15s;
+    font-weight: 600;
+}
+
+a:hover,
+a:active {
+    border-bottom: 2px solid #3c91e6;
+}
+
+/*table {}*/
+
+#text-link {
+    color: #e8ebf7;
+    border-bottom: 0px solid transparent;
+}
+
